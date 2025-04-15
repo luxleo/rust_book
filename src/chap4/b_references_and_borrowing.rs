@@ -79,5 +79,3 @@ fn no_dangle() -> String {
     s
 }
 //This works without any problems. Ownership is moved out, and nothing is deallocated.
-
-

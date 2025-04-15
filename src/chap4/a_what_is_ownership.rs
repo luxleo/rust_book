@@ -28,6 +28,7 @@ fn heap_call_drop_to_clean() {
     {
         let s1 = String::from("hello world");
         println!("s1 is {}", s1);
+
     }
     // println!("s1 is {}", s1); 이 라인은 drop이 호출된 이후이므로 메모리에 접근할 수 없다.
 }

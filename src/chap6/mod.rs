@@ -1,0 +1,1 @@
+mod a_defining_an_enum;

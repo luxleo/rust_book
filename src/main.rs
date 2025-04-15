@@ -4,6 +4,9 @@ use rust_book::chap3::b_data_types::tuple_types;
 use rust_book::chap3::e_control_flow::{fibo_cache_client, fibo_client, repetition_with_for, repetition_with_loop};
 use rust_book::chap4::a_what_is_ownership::heap_data;
 use rust_book::chap4::b_references_and_borrowing::{valid_change_with_multiple_mutable_references2, valid_change_with_multiple_mutable_references1, valid_multiple_references};
+use rust_book::chap4::c_slice_type::{invalid_length, show_sliced_array};
+use rust_book::chap5::b_program_using_struct::show_rect;
+use rust_book::chap5::c_method_syntax::method_test;
 
 fn main() {
     // run_game();
@@ -15,7 +18,16 @@ fn main() {
     // fibo_cache_client();
     // heap_data();
     // valid_change_with_multiple_mutable_references1();
-    valid_multiple_references();
+    // valid_multiple_references();
+    // invalid_length();
+    // valid_length();
+    // show_sliced_array();
+    // show_rect();
+    method_test();
 }
+
+
+
+
 
 
