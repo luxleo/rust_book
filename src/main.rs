@@ -8,6 +8,7 @@ use rust_book::chap4::c_slice_type::{invalid_length, show_sliced_array};
 use rust_book::chap5::b_program_using_struct::show_rect;
 use rust_book::chap5::c_method_syntax::method_test;
 use rust_book::chap6::a_defining_an_enum::show_enum;
+use rust_book::chap7::z_test::use_test;
 
 fn main() {
     // run_game();
@@ -24,7 +25,7 @@ fn main() {
     // valid_length();
     // show_sliced_array();
     // show_rect();
-    show_enum();
+    // show_enum();
     // method_test();
 }
 
