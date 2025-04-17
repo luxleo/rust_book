@@ -8,7 +8,9 @@ use rust_book::chap4::c_slice_type::{invalid_length, show_sliced_array};
 use rust_book::chap5::b_program_using_struct::show_rect;
 use rust_book::chap5::c_method_syntax::method_test;
 use rust_book::chap6::a_defining_an_enum::show_enum;
-use rust_book::chap7::z_test::use_test;
+use rust_book::chap8::a_storing_lists_of_value::{get_element_test, prac_iter_vector, update_vector, vector_define};
+use rust_book::chap8::b_utf8_enocoded_string::{indexing_string, update_string};
+use rust_book::chap8::c_storing_key_value_with_hashmap::{create_and_access, update_test};
 
 fn main() {
     // run_game();
@@ -27,7 +29,15 @@ fn main() {
     // show_rect();
     // show_enum();
     // method_test();
+    // vector_define();
+    // get_element_test();
+    // prac_iter_vector();
+    // update_string();
+    // indexing_string();
+    // create_and_access();
+    update_test();
 }
+
 
 
 
