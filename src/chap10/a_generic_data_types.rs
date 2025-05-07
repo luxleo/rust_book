@@ -69,6 +69,17 @@ mod tests{
         let p1 = Point2D { x: 1, y: 2.0 };
         let p2 = Point2D { x: 'a', y: 'b' };
         let p3 = p1.mix_up(p2);
+        assert_eq!(p3.x, 1);
         println!("p3.x = {}, p3.y = {}", p3.x, p3.y);
+    }
+
+    pub fn find_biggest<T: std::cmp::PartialOrd>(list: &[T]) -> &T {
+        let mut result = &list[0];
+        for el in list {
+            if el > result {
+                result = el;
+            }
+        }
+        result
     }
 }
